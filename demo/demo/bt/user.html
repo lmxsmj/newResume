@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="vieport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body data-spy="scroll" data-target="#myNav">
+	<!--导航-->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<!-- 小屏幕显示菜单按钮 -->
+			<button class="navbar-toggle navbar-btn" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<!-- 小屏幕显示菜单按钮 -->
+			<!-- logo -->
+			<div class="navbar-header">
+				<a href="" class="navbar-brand">Admin</a> 
+			</div>
+			<!-- logo -->
+			<div id="myNav" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-left">
+					<li><a href="index.html"><span class="glyphicon glyphicon-home"></span>后台首页</a></li>
+					<li class="active"><a href="user.html"><span class="glyphicon glyphicon-user"></span>用户管理</a></li>
+					<li><a href="content.html"><span class="glyphicon glyphicon-list-alt"></span>内容管理</a></li>
+					<li><a href="tag.html"><span class="glyphicon glyphicon-tags"></span>标签管理</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li class="dropdown">
+						<a href="#home" class="dropdown-toggle" data-toggle="dropdown" id="dropdownMenu1">admin<span class="caret"></span></a>
+						<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+						    <li><a href="#"><span class="glyphicon glyphicon-screenshot"></span>前台首页</a></li>
+						    <li><a href="#"><span class="glyphicon glyphicon-user"></span>个人主页</a></li>
+						    <li><a href="#"><span class="glyphicon glyphicon-cog"></span>个人设置</a></li>
+						    <li><a href="#"><span class="glyphicon glyphicon-credit-card"></span>账户中心</a></li>
+						    <li><a href="#"><span class="glyphicon glyphicon-heart"></span>我的收藏</a></li>
+						  </ul>
+					</li>
+					<li><a href="#bbs"><span class="glyphicon glyphicon-off"></span>退出</a></li>
+			</div>
+		</div>
+	</nav>
+	<!--导航-->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2">
+					<ul class="list-group">
+						<li class="list-group-item active"><a href="user.html">用户管理</a></li>
+						<li class="list-group-item"><a href="user-search.html">用户搜索</a></li>
+						<li class="list-group-item"><a href="user-add.html">添加用户</a></li>
+					</ul>
+				</div>
+				<div class="col-md-10">
+					<div class="page-header">
+						<h2>用户管理</h2>
+						<ul class="nav nav-tabs">
+							<li class="active"><a href="user.html">用户列表</a></li>
+							<li><a href="user-search.html">用户搜索</a></li>
+							<li><a href="user-add.html">添加用户</a></li>
+						</ul>
+						<table class="table">
+							<thead>
+								<tr>
+									<th>ID</th>
+									<th>用户名</th>
+									<th>邮箱</th>
+									<th>操作</th>
+								</tr>
+								<tbody>
+									<tr>
+										<td>1</td>
+										<td>张三</td>
+										<td>1234@qq.com</td>
+										<td>
+											<div class="dropdown">
+											  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											   操作
+											    <span class="caret"></span>
+											  </button>
+											  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+											    <li><a href="#">编辑</a></li>
+											    <li><a href="#">删除</a></li>
+											    <li><a href="#">锁定</a></li>
+											    <li><a href="#">修改密码</a></li>
+											  </ul>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td>2</td>
+										<td>李四</td>
+										<td>5678@qq.com</td>
+										<td>
+											<div class="dropdown">
+											  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											   操作
+											    <span class="caret"></span>
+											  </button>
+											  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+											    <li><a href="#">编辑</a></li>
+											    <li><a href="#">删除</a></li>
+											    <li><a href="#">锁定</a></li>
+											    <li><a href="#">修改密码</a></li>
+											  </ul>
+											</div>
+										</td>
+									</tr>
+
+									<tr>
+										<td>2</td>
+										<td>李四</td>
+										<td>5678@qq.com</td>
+										<td>
+											<div class="dropdown">
+											  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											   操作
+											    <span class="caret"></span>
+											  </button>
+											  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+											    <li><a href="#">编辑</a></li>
+											    <li><a href="#">删除</a></li>
+											    <li><a href="#">锁定</a></li>
+											    <li><a href="#">修改密码</a></li>
+											  </ul>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td>2</td>
+										<td>李四</td>
+										<td>5678@qq.com</td>
+										<td>
+											<div class="dropdown">
+											  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											   操作
+											    <span class="caret"></span>
+											  </button>
+											  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+											    <li><a href="#">编辑</a></li>
+											    <li><a href="#">删除</a></li>
+											    <li><a href="#">锁定</a></li>
+											    <li><a href="#">修改密码</a></li>
+											  </ul>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td>2</td>
+										<td>李四</td>
+										<td>5678@qq.com</td>
+										<td>
+											<div class="dropdown">
+											  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											   操作
+											    <span class="caret"></span>
+											  </button>
+											  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+											    <li><a href="#">编辑</a></li>
+											    <li><a href="#">删除</a></li>
+											    <li><a href="#">锁定</a></li>
+											    <li><a href="#">修改密码</a></li>
+											  </ul>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td>2</td>
+										<td>李四</td>
+										<td>5678@qq.com</td>
+										<td>
+											<div class="dropdown">
+											  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											   操作
+											    <span class="caret"></span>
+											  </button>
+											  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+											    <li><a href="#">编辑</a></li>
+											    <li><a href="#">删除</a></li>
+											    <li><a href="#">锁定</a></li>
+											    <li><a href="#">修改密码</a></li>
+											  </ul>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td>2</td>
+										<td>李四</td>
+										<td>5678@qq.com</td>
+										<td>
+											<div class="dropdown">
+											  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											   操作
+											    <span class="caret"></span>
+											  </button>
+											  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+											    <li><a href="#">编辑</a></li>
+											    <li><a href="#">删除</a></li>
+											    <li><a href="#">锁定</a></li>
+											    <li><a href="#">修改密码</a></li>
+											  </ul>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td>2</td>
+										<td>李四</td>
+										<td>5678@qq.com</td>
+										<td>
+											<div class="dropdown">
+											  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											   操作
+											    <span class="caret"></span>
+											  </button>
+											  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+											    <li><a href="#">编辑</a></li>
+											    <li><a href="#">删除</a></li>
+											    <li><a href="#">锁定</a></li>
+											    <li><a href="#">修改密码</a></li>
+											  </ul>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td>2</td>
+										<td>李四</td>
+										<td>5678@qq.com</td>
+										<td>
+											<div class="dropdown">
+											  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											   操作
+											    <span class="caret"></span>
+											  </button>
+											  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+											    <li><a href="#">编辑</a></li>
+											    <li><a href="#">删除</a></li>
+											    <li><a href="#">锁定</a></li>
+											    <li><a href="#">修改密码</a></li>
+											  </ul>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td>2</td>
+										<td>李四</td>
+										<td>5678@qq.com</td>
+										<td>
+											<div class="dropdown">
+											  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											   操作
+											    <span class="caret"></span>
+											  </button>
+											  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+											    <li><a href="#">编辑</a></li>
+											    <li><a href="#">删除</a></li>
+											    <li><a href="#">锁定</a></li>
+											    <li><a href="#">修改密码</a></li>
+											  </ul>
+											</div>
+										</td>
+									</tr>
+								</tbody>
+							</thead>
+						</table>
+						<nav aria-label="Page navigation" class="pull-right">
+							  <ul class="pagination">
+							    <li>
+							      <a href="#" aria-label="Previous">
+							        <span aria-hidden="true">&laquo;</span>
+							      </a>
+							    </li>
+							    <li class="active"><a href="#">1</a></li>
+							    <li><a href="#">2</a></li>
+							    <li><a href="#">3</a></li>
+							    <li><a href="#">4</a></li>
+							    <li><a href="#">5</a></li>
+							    <li>
+							      <a href="#" aria-label="Next">
+							        <span aria-hidden="true">&raquo;</span>
+							      </a>
+							    </li>
+							  </ul>
+							</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p>Copyright © 2012-2015  www.123456.com  蜀ICP备13014270号-4</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/jquery-3.3.1.js"></script>
+	<script src="js/bootstrap.js"></script>
+</body>
+</html>
